@@ -1,0 +1,587 @@
+2019-05-22 13:07:15.138  INFO 1144 --- [restartedMain] c.j.petclinic.PetClinicApplication       : Starting PetClinicApplication on TCRDCCONS0019 with PID 1144 (D:\Dev\IdeaProjects\petclinic\target\classes started by EXT02D8158 in D:\Dev\IdeaProjects\petclinic)
+2019-05-22 13:07:15.184  INFO 1144 --- [restartedMain] c.j.petclinic.PetClinicApplication       : The following profiles are active: dev
+2019-05-22 13:07:15.439  INFO 1144 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-22 13:07:15.440  INFO 1144 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-22 13:07:20.658  INFO 1144 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-22 13:07:20.714  INFO 1144 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-22 13:07:20.715  INFO 1144 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-22 13:07:21.297  INFO 1144 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-05-22 13:07:21.310  INFO 1144 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-22 13:07:21.311 DEBUG 1144 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-05-22 13:07:21.312  INFO 1144 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5872 ms
+2019-05-22 13:07:23.068 DEBUG 1144 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-05-22 13:07:23.208  INFO 1144 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-22 13:07:23.221 DEBUG 1144 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-05-22 13:07:23.321 DEBUG 1144 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2019-05-22 13:07:23.339 DEBUG 1144 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-05-22 13:07:23.352 DEBUG 1144 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-05-22 13:07:23.380  INFO 1144 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2019-05-22 13:07:23.802  INFO 1144 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-05-22 13:07:23.818  INFO 1144 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2019-05-22 13:07:23.970  INFO 1144 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-22 13:07:23.977  INFO 1144 --- [restartedMain] c.j.petclinic.PetClinicApplication       : Started PetClinicApplication in 10.803 seconds (JVM running for 12.187)
+2019-05-22 13:11:48.965  INFO 9772 --- [restartedMain] c.j.petclinic.PetClinicApplication       : Starting PetClinicApplication on TCRDCCONS0019 with PID 9772 (D:\Dev\IdeaProjects\petclinic\target\classes started by EXT02D8158 in D:\Dev\IdeaProjects\petclinic)
+2019-05-22 13:11:48.969  INFO 9772 --- [restartedMain] c.j.petclinic.PetClinicApplication       : The following profiles are active: dev
+2019-05-22 13:11:49.055  INFO 9772 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-22 13:11:49.055  INFO 9772 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-22 13:11:53.819  INFO 9772 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-22 13:11:53.887  INFO 9772 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-22 13:11:53.888  INFO 9772 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-22 13:11:54.856  INFO 9772 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-05-22 13:11:54.890  INFO 9772 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-22 13:11:54.890 DEBUG 9772 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-05-22 13:11:54.890  INFO 9772 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5835 ms
+2019-05-22 13:11:55.890 DEBUG 9772 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-05-22 13:11:56.081  INFO 9772 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-22 13:11:56.097 DEBUG 9772 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-05-22 13:11:56.419 DEBUG 9772 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2019-05-22 13:11:56.455 DEBUG 9772 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-05-22 13:11:56.499 DEBUG 9772 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-05-22 13:11:56.629  INFO 9772 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2019-05-22 13:11:57.199  INFO 9772 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-05-22 13:11:57.218  INFO 9772 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2019-05-22 13:11:57.533  INFO 9772 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-22 13:11:57.541  INFO 9772 --- [restartedMain] c.j.petclinic.PetClinicApplication       : Started PetClinicApplication in 10.479 seconds (JVM running for 11.736)
+2019-05-22 13:11:57.928  INFO 9772 --- [http-nio-8080-exec-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-22 13:11:57.929  INFO 9772 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-05-22 13:11:57.929 DEBUG 9772 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2019-05-22 13:11:57.942 DEBUG 9772 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-05-22 13:11:57.942  INFO 9772 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2019-05-22 13:11:57.955 DEBUG 9772 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2019-05-22 13:11:57.963 DEBUG 9772 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+2019-05-22 13:11:58.000 DEBUG 9772 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-05-22 13:45:42.224  INFO 9064 --- [restartedMain] c.j.petclinic.PetClinicApplication       : Starting PetClinicApplication on TCRDCCONS0019 with PID 9064 (D:\Dev\IdeaProjects\petclinic\target\classes started by EXT02D8158 in D:\Dev\IdeaProjects\petclinic)
+2019-05-22 13:45:42.227  INFO 9064 --- [restartedMain] c.j.petclinic.PetClinicApplication       : The following profiles are active: dev
+2019-05-22 13:45:42.565  INFO 9064 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-22 13:45:42.567  INFO 9064 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-22 13:45:47.357  INFO 9064 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-22 13:45:47.418  INFO 9064 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-22 13:45:47.419  INFO 9064 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-22 13:45:48.329  INFO 9064 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-05-22 13:45:48.353  INFO 9064 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-22 13:45:48.355 DEBUG 9064 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-05-22 13:45:48.356  INFO 9064 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5788 ms
+2019-05-22 13:45:49.647 DEBUG 9064 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-05-22 13:45:49.829  INFO 9064 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-22 13:45:49.857 DEBUG 9064 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-05-22 13:45:50.028 DEBUG 9064 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2019-05-22 13:45:50.103 DEBUG 9064 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-05-22 13:45:50.125 DEBUG 9064 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-05-22 13:45:50.220  WARN 9064 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find templates location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-05-22 13:45:50.238  WARN 9064 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'viewResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafWebMvcConfiguration$ThymeleafViewResolverConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafDefaultConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultTemplateResolver' defined in class path resource [org/springframework/boot/autoconfigure/thymeleaf/ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver]: Factory method 'defaultTemplateResolver' threw exception; nested exception is java.lang.NoSuchMethodError: org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver.setCheckExistence(Z)V
+2019-05-22 13:45:50.239  INFO 9064 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-22 13:45:50.258  INFO 9064 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-05-22 13:45:50.345  INFO 9064 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-05-22 13:45:50.349 ERROR 9064 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.defaultTemplateResolver(ThymeleafAutoConfiguration.java:130)
+
+The following method did not exist:
+
+    org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver.setCheckExistence(Z)V
+
+The method's class, org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver, is available from the following locations:
+
+    jar:file:/D:/Dev/repository/org/thymeleaf/thymeleaf-spring5/3.0.11.RELEASE/thymeleaf-spring5-3.0.11.RELEASE.jar!/org/thymeleaf/spring5/templateresolver/SpringResourceTemplateResolver.class
+
+It was loaded from the following location:
+
+    file:/D:/Dev/repository/org/thymeleaf/thymeleaf-spring5/3.0.11.RELEASE/thymeleaf-spring5-3.0.11.RELEASE.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver
+
+2019-05-22 13:50:07.933  INFO 4832 --- [restartedMain] c.j.petclinic.PetClinicApplication       : Starting PetClinicApplication on TCRDCCONS0019 with PID 4832 (D:\Dev\IdeaProjects\petclinic\target\classes started by EXT02D8158 in D:\Dev\IdeaProjects\petclinic)
+2019-05-22 13:50:07.933  INFO 4832 --- [restartedMain] c.j.petclinic.PetClinicApplication       : The following profiles are active: dev
+2019-05-22 13:50:08.011  INFO 4832 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-22 13:50:08.011  INFO 4832 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-22 13:50:12.478  INFO 4832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-22 13:50:12.525  INFO 4832 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-22 13:50:12.525  INFO 4832 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-22 13:50:13.074  INFO 4832 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-05-22 13:50:13.089  INFO 4832 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-22 13:50:13.089 DEBUG 4832 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-05-22 13:50:13.089  INFO 4832 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5078 ms
+2019-05-22 13:50:13.667 DEBUG 4832 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-05-22 13:50:13.777  INFO 4832 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-22 13:50:13.792 DEBUG 4832 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-05-22 13:50:13.870 DEBUG 4832 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2019-05-22 13:50:13.870 DEBUG 4832 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-05-22 13:50:13.886 DEBUG 4832 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-05-22 13:50:13.931  WARN 4832 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find templates location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-05-22 13:50:13.937  WARN 4832 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'viewResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafWebMvcConfiguration$ThymeleafViewResolverConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafDefaultConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultTemplateResolver' defined in class path resource [org/springframework/boot/autoconfigure/thymeleaf/ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver]: Factory method 'defaultTemplateResolver' threw exception; nested exception is java.lang.NoSuchMethodError: org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver.setCheckExistence(Z)V
+2019-05-22 13:50:13.937  INFO 4832 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-22 13:50:13.937  INFO 4832 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-05-22 13:50:13.953  INFO 4832 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-05-22 13:50:13.969 ERROR 4832 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.defaultTemplateResolver(ThymeleafAutoConfiguration.java:130)
+
+The following method did not exist:
+
+    org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver.setCheckExistence(Z)V
+
+The method's class, org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver, is available from the following locations:
+
+    jar:file:/D:/Dev/repository/org/thymeleaf/thymeleaf-spring5/3.0.11.RELEASE/thymeleaf-spring5-3.0.11.RELEASE.jar!/org/thymeleaf/spring5/templateresolver/SpringResourceTemplateResolver.class
+
+It was loaded from the following location:
+
+    file:/D:/Dev/repository/org/thymeleaf/thymeleaf-spring5/3.0.11.RELEASE/thymeleaf-spring5-3.0.11.RELEASE.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver
+
+2019-05-22 14:06:13.013  INFO 1288 --- [restartedMain] c.j.petclinic.PetClinicApplication       : Starting PetClinicApplication on TCRDCCONS0019 with PID 1288 (D:\Dev\IdeaProjects\petclinic\target\classes started by EXT02D8158 in D:\Dev\IdeaProjects\petclinic)
+2019-05-22 14:06:13.015  INFO 1288 --- [restartedMain] c.j.petclinic.PetClinicApplication       : The following profiles are active: dev
+2019-05-22 14:06:13.075  INFO 1288 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-22 14:06:13.076  INFO 1288 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-22 14:06:15.587  INFO 1288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-22 14:06:15.634  INFO 1288 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-22 14:06:15.634  INFO 1288 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-22 14:06:16.360  INFO 1288 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-05-22 14:06:16.373  INFO 1288 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-22 14:06:16.374 DEBUG 1288 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-05-22 14:06:16.374  INFO 1288 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3298 ms
+2019-05-22 14:06:16.985 DEBUG 1288 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-05-22 14:06:17.104  INFO 1288 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-22 14:06:17.119 DEBUG 1288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-05-22 14:06:17.205 DEBUG 1288 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2019-05-22 14:06:17.219 DEBUG 1288 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-05-22 14:06:17.235 DEBUG 1288 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-05-22 14:06:17.300  WARN 1288 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find templates location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-05-22 14:06:17.311  WARN 1288 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'viewResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafWebMvcConfiguration$ThymeleafViewResolverConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafDefaultConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultTemplateResolver' defined in class path resource [org/springframework/boot/autoconfigure/thymeleaf/ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver]: Factory method 'defaultTemplateResolver' threw exception; nested exception is java.lang.NoSuchMethodError: org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver.setCheckExistence(Z)V
+2019-05-22 14:06:17.312  INFO 1288 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-22 14:06:17.319  INFO 1288 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-05-22 14:06:17.342  INFO 1288 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-05-22 14:06:17.345 ERROR 1288 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.defaultTemplateResolver(ThymeleafAutoConfiguration.java:130)
+
+The following method did not exist:
+
+    org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver.setCheckExistence(Z)V
+
+The method's class, org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver, is available from the following locations:
+
+    jar:file:/D:/Dev/repository/org/thymeleaf/thymeleaf-spring5/3.0.11.RELEASE/thymeleaf-spring5-3.0.11.RELEASE.jar!/org/thymeleaf/spring5/templateresolver/SpringResourceTemplateResolver.class
+
+It was loaded from the following location:
+
+    file:/D:/Dev/repository/org/thymeleaf/thymeleaf-spring5/3.0.11.RELEASE/thymeleaf-spring5-3.0.11.RELEASE.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver
+
+2019-05-22 14:11:13.239  INFO 14716 --- [restartedMain] c.j.petclinic.PetClinicApplication       : Starting PetClinicApplication on TCRDCCONS0019 with PID 14716 (D:\Dev\IdeaProjects\petclinic\target\classes started by EXT02D8158 in D:\Dev\IdeaProjects\petclinic)
+2019-05-22 14:11:13.254  INFO 14716 --- [restartedMain] c.j.petclinic.PetClinicApplication       : The following profiles are active: dev
+2019-05-22 14:11:13.301  INFO 14716 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-22 14:11:13.301  INFO 14716 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-22 14:11:15.505  INFO 14716 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-22 14:11:15.536  INFO 14716 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-22 14:11:15.536  INFO 14716 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-22 14:11:16.130  INFO 14716 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-05-22 14:11:16.130  INFO 14716 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-22 14:11:16.130 DEBUG 14716 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-05-22 14:11:16.130  INFO 14716 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2829 ms
+2019-05-22 14:11:16.792 DEBUG 14716 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-05-22 14:11:16.901  INFO 14716 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-22 14:11:16.917 DEBUG 14716 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-05-22 14:11:16.992 DEBUG 14716 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2019-05-22 14:11:17.008 DEBUG 14716 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-05-22 14:11:17.023 DEBUG 14716 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-05-22 14:11:17.070  WARN 14716 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'viewResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafWebMvcConfiguration$ThymeleafViewResolverConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafDefaultConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultTemplateResolver' defined in class path resource [org/springframework/boot/autoconfigure/thymeleaf/ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver]: Factory method 'defaultTemplateResolver' threw exception; nested exception is java.lang.NoSuchMethodError: org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver.setCheckExistence(Z)V
+2019-05-22 14:11:17.070  INFO 14716 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-22 14:11:17.086  INFO 14716 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-05-22 14:11:17.101  INFO 14716 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-05-22 14:11:17.101 ERROR 14716 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.defaultTemplateResolver(ThymeleafAutoConfiguration.java:130)
+
+The following method did not exist:
+
+    org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver.setCheckExistence(Z)V
+
+The method's class, org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver, is available from the following locations:
+
+    jar:file:/D:/Dev/repository/org/thymeleaf/thymeleaf-spring5/3.0.11.RELEASE/thymeleaf-spring5-3.0.11.RELEASE.jar!/org/thymeleaf/spring5/templateresolver/SpringResourceTemplateResolver.class
+
+It was loaded from the following location:
+
+    file:/D:/Dev/repository/org/thymeleaf/thymeleaf-spring5/3.0.11.RELEASE/thymeleaf-spring5-3.0.11.RELEASE.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver
+
+2019-05-22 14:12:49.764  INFO 2632 --- [restartedMain] c.j.petclinic.PetClinicApplication       : Starting PetClinicApplication on TCRDCCONS0019 with PID 2632 (D:\Dev\IdeaProjects\petclinic\target\classes started by EXT02D8158 in D:\Dev\IdeaProjects\petclinic)
+2019-05-22 14:12:49.767  INFO 2632 --- [restartedMain] c.j.petclinic.PetClinicApplication       : The following profiles are active: dev
+2019-05-22 14:12:49.965  INFO 2632 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-22 14:12:49.965  INFO 2632 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-22 14:12:54.058  INFO 2632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-22 14:12:54.136  INFO 2632 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-22 14:12:54.136  INFO 2632 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-22 14:12:54.951  INFO 2632 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-05-22 14:12:54.969  INFO 2632 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-22 14:12:54.970 DEBUG 2632 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-05-22 14:12:54.970  INFO 2632 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5005 ms
+2019-05-22 14:12:56.010 DEBUG 2632 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-05-22 14:12:56.236  INFO 2632 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-22 14:12:56.253 DEBUG 2632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-05-22 14:12:56.382 DEBUG 2632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2019-05-22 14:12:56.403 DEBUG 2632 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-05-22 14:12:56.418 DEBUG 2632 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-05-22 14:12:56.530  WARN 2632 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'viewResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafWebMvcConfiguration$ThymeleafViewResolverConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafDefaultConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultTemplateResolver' defined in class path resource [org/springframework/boot/autoconfigure/thymeleaf/ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver]: Factory method 'defaultTemplateResolver' threw exception; nested exception is java.lang.NoSuchMethodError: org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver.setCheckExistence(Z)V
+2019-05-22 14:12:56.531  INFO 2632 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-22 14:12:56.547  INFO 2632 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-05-22 14:12:56.615  INFO 2632 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-05-22 14:12:56.626 ERROR 2632 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.defaultTemplateResolver(ThymeleafAutoConfiguration.java:130)
+
+The following method did not exist:
+
+    org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver.setCheckExistence(Z)V
+
+The method's class, org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver, is available from the following locations:
+
+    jar:file:/D:/Dev/repository/org/thymeleaf/thymeleaf-spring5/3.0.11.RELEASE/thymeleaf-spring5-3.0.11.RELEASE.jar!/org/thymeleaf/spring5/templateresolver/SpringResourceTemplateResolver.class
+
+It was loaded from the following location:
+
+    file:/D:/Dev/repository/org/thymeleaf/thymeleaf-spring5/3.0.11.RELEASE/thymeleaf-spring5-3.0.11.RELEASE.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver
+
+2019-05-22 14:20:49.583  INFO 11888 --- [restartedMain] c.j.petclinic.PetClinicApplication       : Starting PetClinicApplication on TCRDCCONS0019 with PID 11888 (D:\Dev\IdeaProjects\petclinic\target\classes started by EXT02D8158 in D:\Dev\IdeaProjects\petclinic)
+2019-05-22 14:20:49.583  INFO 11888 --- [restartedMain] c.j.petclinic.PetClinicApplication       : The following profiles are active: dev
+2019-05-22 14:20:49.646  INFO 11888 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-22 14:20:49.646  INFO 11888 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-22 14:20:52.067  INFO 11888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-22 14:20:52.130  INFO 11888 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-22 14:20:52.130  INFO 11888 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-22 14:20:52.799  INFO 11888 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-05-22 14:20:52.799  INFO 11888 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-22 14:20:52.799 DEBUG 11888 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-05-22 14:20:52.799  INFO 11888 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3153 ms
+2019-05-22 14:20:53.973 DEBUG 11888 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-05-22 14:20:54.113  INFO 11888 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-22 14:20:54.129 DEBUG 11888 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-05-22 14:20:54.207 DEBUG 11888 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2019-05-22 14:20:54.223 DEBUG 11888 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-05-22 14:20:54.238 DEBUG 11888 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-05-22 14:20:54.276  WARN 11888 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'viewResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafWebMvcConfiguration$ThymeleafViewResolverConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafDefaultConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultTemplateResolver' defined in class path resource [org/springframework/boot/autoconfigure/thymeleaf/ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver]: Factory method 'defaultTemplateResolver' threw exception; nested exception is java.lang.NoSuchMethodError: org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver.setCheckExistence(Z)V
+2019-05-22 14:20:54.276  INFO 11888 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-22 14:20:54.292  INFO 11888 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-05-22 14:20:54.307  INFO 11888 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-05-22 14:20:54.307 ERROR 11888 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.defaultTemplateResolver(ThymeleafAutoConfiguration.java:130)
+
+The following method did not exist:
+
+    org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver.setCheckExistence(Z)V
+
+The method's class, org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver, is available from the following locations:
+
+    jar:file:/D:/Dev/repository/org/thymeleaf/thymeleaf-spring5/3.0.11.RELEASE/thymeleaf-spring5-3.0.11.RELEASE.jar!/org/thymeleaf/spring5/templateresolver/SpringResourceTemplateResolver.class
+
+It was loaded from the following location:
+
+    file:/D:/Dev/repository/org/thymeleaf/thymeleaf-spring5/3.0.11.RELEASE/thymeleaf-spring5-3.0.11.RELEASE.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver
+
+2019-05-22 14:21:46.226  INFO 15184 --- [restartedMain] c.j.petclinic.PetClinicApplication       : Starting PetClinicApplication on TCRDCCONS0019 with PID 15184 (D:\Dev\IdeaProjects\petclinic\target\classes started by EXT02D8158 in D:\Dev\IdeaProjects\petclinic)
+2019-05-22 14:21:46.226  INFO 15184 --- [restartedMain] c.j.petclinic.PetClinicApplication       : The following profiles are active: dev
+2019-05-22 14:21:46.320  INFO 15184 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-22 14:21:46.320  INFO 15184 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-22 14:21:50.540  INFO 15184 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-22 14:21:50.572  INFO 15184 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-22 14:21:50.572  INFO 15184 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-22 14:21:51.130  INFO 15184 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-05-22 14:21:51.146  INFO 15184 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-22 14:21:51.146 DEBUG 15184 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-05-22 14:21:51.146  INFO 15184 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4826 ms
+2019-05-22 14:21:51.785 DEBUG 15184 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-05-22 14:21:51.895  INFO 15184 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-22 14:21:51.895 DEBUG 15184 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-05-22 14:21:51.957 DEBUG 15184 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2019-05-22 14:21:51.973 DEBUG 15184 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-05-22 14:21:51.988 DEBUG 15184 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-05-22 14:21:52.035  WARN 15184 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'viewResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafWebMvcConfiguration$ThymeleafViewResolverConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafDefaultConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultTemplateResolver' defined in class path resource [org/springframework/boot/autoconfigure/thymeleaf/ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver]: Factory method 'defaultTemplateResolver' threw exception; nested exception is java.lang.NoSuchMethodError: org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver.setCheckExistence(Z)V
+2019-05-22 14:21:52.035  INFO 15184 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-22 14:21:52.051  INFO 15184 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-05-22 14:21:52.067  INFO 15184 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-05-22 14:21:52.067 ERROR 15184 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.defaultTemplateResolver(ThymeleafAutoConfiguration.java:130)
+
+The following method did not exist:
+
+    org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver.setCheckExistence(Z)V
+
+The method's class, org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver, is available from the following locations:
+
+    jar:file:/D:/Dev/repository/org/thymeleaf/thymeleaf-spring5/3.0.11.RELEASE/thymeleaf-spring5-3.0.11.RELEASE.jar!/org/thymeleaf/spring5/templateresolver/SpringResourceTemplateResolver.class
+
+It was loaded from the following location:
+
+    file:/D:/Dev/repository/org/thymeleaf/thymeleaf-spring5/3.0.11.RELEASE/thymeleaf-spring5-3.0.11.RELEASE.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver
+
+2019-05-22 14:22:38.394  INFO 16168 --- [restartedMain] c.j.petclinic.PetClinicApplication       : Starting PetClinicApplication on TCRDCCONS0019 with PID 16168 (D:\Dev\IdeaProjects\petclinic\target\classes started by EXT02D8158 in D:\Dev\IdeaProjects\petclinic)
+2019-05-22 14:22:38.410  INFO 16168 --- [restartedMain] c.j.petclinic.PetClinicApplication       : The following profiles are active: dev
+2019-05-22 14:22:38.456  INFO 16168 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-22 14:22:38.456  INFO 16168 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-22 14:22:40.625  INFO 16168 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-22 14:22:40.672  INFO 16168 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-22 14:22:40.672  INFO 16168 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-22 14:22:41.297  INFO 16168 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-05-22 14:22:41.297  INFO 16168 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-22 14:22:41.297 DEBUG 16168 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-05-22 14:22:41.297  INFO 16168 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2841 ms
+2019-05-22 14:22:41.901 DEBUG 16168 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-05-22 14:22:42.003  INFO 16168 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-22 14:22:42.003 DEBUG 16168 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-05-22 14:22:42.097 DEBUG 16168 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2019-05-22 14:22:42.113 DEBUG 16168 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-05-22 14:22:42.113 DEBUG 16168 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-05-22 14:22:42.160  INFO 16168 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2019-05-22 14:22:42.424  INFO 16168 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-05-22 14:22:42.439  INFO 16168 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2019-05-22 14:22:42.564  INFO 16168 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-22 14:22:42.564  INFO 16168 --- [restartedMain] c.j.petclinic.PetClinicApplication       : Started PetClinicApplication in 5.82 seconds (JVM running for 6.749)
+2019-05-22 14:23:10.201  INFO 16168 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-22 14:23:10.202  INFO 16168 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-05-22 14:23:10.203 DEBUG 16168 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2019-05-22 14:23:10.215 DEBUG 16168 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-05-22 14:23:10.215  INFO 16168 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2019-05-22 14:23:10.239 DEBUG 16168 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/owners.html", parameters={}
+2019-05-22 14:23:10.261 DEBUG 16168 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-05-22 14:23:10.266 DEBUG 16168 --- [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-05-22 14:23:10.267 DEBUG 16168 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-05-22 14:23:10.282 DEBUG 16168 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-05-22 14:23:10.290 DEBUG 16168 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-05-22 14:23:10.332 DEBUG 16168 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-05-22 14:23:43.644 DEBUG 16168 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/owners", parameters={}
+2019-05-22 14:23:43.654 DEBUG 16168 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView com.junique.petclinic.web.PetClinicController.getOwners()
+2019-05-22 14:23:43.671 DEBUG 16168 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+2019-05-22 14:23:43.688 DEBUG 16168 --- [http-nio-8080-exec-3] o.s.web.servlet.view.JstlView            : View name 'owners', model {owners=[Owner(id=1, firstName=Kenan, lastName=Sevindik, pets=[]), Owner(id=2, firstName=Muammer, lastName=Yücel, pets=[]), Owner(id=3, firstName=Hümeyra, lastName=Sevindik, pets=[]), Owner(id=4, firstName=Salim, lastName=Sevindik, pets=[])]}
+2019-05-22 14:23:43.709 DEBUG 16168 --- [http-nio-8080-exec-3] o.s.web.servlet.view.JstlView            : Forwarding to [/WEB-INF/jsp/owners.jsp]
+2019-05-22 14:23:44.767 DEBUG 16168 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-05-22 15:31:43.335  INFO 16424 --- [restartedMain] c.j.petclinic.PetClinicApplication       : Starting PetClinicApplication on TCRDCCONS0019 with PID 16424 (D:\Dev\IdeaProjects\petclinic\target\classes started by EXT02D8158 in D:\Dev\IdeaProjects\petclinic)
+2019-05-22 15:31:43.338  INFO 16424 --- [restartedMain] c.j.petclinic.PetClinicApplication       : The following profiles are active: dev
+2019-05-22 15:31:43.401  INFO 16424 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-22 15:31:43.401  INFO 16424 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-22 15:31:45.757  INFO 16424 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-22 15:31:45.809  INFO 16424 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-22 15:31:45.810  INFO 16424 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-22 15:31:46.398  INFO 16424 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-05-22 15:31:46.408  INFO 16424 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-22 15:31:46.408 DEBUG 16424 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-05-22 15:31:46.409  INFO 16424 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3008 ms
+2019-05-22 15:31:47.105 DEBUG 16424 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-05-22 15:31:47.233  INFO 16424 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-22 15:31:47.252 DEBUG 16424 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-05-22 15:31:47.345 DEBUG 16424 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2019-05-22 15:31:47.367 DEBUG 16424 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-05-22 15:31:47.384 DEBUG 16424 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-05-22 15:31:47.410  INFO 16424 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2019-05-22 15:31:47.718  INFO 16424 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-05-22 15:31:47.732  INFO 16424 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2019-05-22 15:31:47.875  INFO 16424 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-22 15:31:47.880  INFO 16424 --- [restartedMain] c.j.petclinic.PetClinicApplication       : Started PetClinicApplication in 7.203 seconds (JVM running for 8.08)
+2019-05-22 15:31:53.042  INFO 16424 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-22 15:31:53.043  INFO 16424 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-05-22 15:31:53.043 DEBUG 16424 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2019-05-22 15:31:53.054 DEBUG 16424 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-05-22 15:31:53.054  INFO 16424 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2019-05-22 15:31:53.074 DEBUG 16424 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/owners", parameters={}
+2019-05-22 15:31:53.091 DEBUG 16424 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView com.junique.petclinic.web.PetClinicController.getOwners()
+2019-05-22 15:31:53.112 DEBUG 16424 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+2019-05-22 15:31:53.113 DEBUG 16424 --- [http-nio-8080-exec-1] o.s.web.servlet.view.JstlView            : View name 'owners', model {owners=[Owner(id=1, firstName=Kenan, lastName=Sevindik, pets=[]), Owner(id=2, firstName=Muammer, lastName=Yücel, pets=[]), Owner(id=3, firstName=Hümeyra, lastName=Sevindik, pets=[]), Owner(id=4, firstName=Salim, lastName=Sevindik, pets=[])]}
+2019-05-22 15:31:53.118 DEBUG 16424 --- [http-nio-8080-exec-1] o.s.web.servlet.view.JstlView            : Forwarding to [/WEB-INF/jsp/owners.jsp]
+2019-05-22 15:31:55.198 DEBUG 16424 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-05-22 15:31:55.389 DEBUG 16424 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2019-05-22 15:31:55.392 DEBUG 16424 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+2019-05-22 15:31:55.443 DEBUG 16424 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-05-22 15:31:59.459 DEBUG 16424 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/owners", parameters={}
+2019-05-22 15:31:59.469 DEBUG 16424 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView com.junique.petclinic.web.PetClinicController.getOwners()
+2019-05-22 15:31:59.470 DEBUG 16424 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+2019-05-22 15:31:59.470 DEBUG 16424 --- [http-nio-8080-exec-3] o.s.web.servlet.view.JstlView            : View name 'owners', model {owners=[Owner(id=1, firstName=Kenan, lastName=Sevindik, pets=[]), Owner(id=2, firstName=Muammer, lastName=Yücel, pets=[]), Owner(id=3, firstName=Hümeyra, lastName=Sevindik, pets=[]), Owner(id=4, firstName=Salim, lastName=Sevindik, pets=[])]}
+2019-05-22 15:31:59.471 DEBUG 16424 --- [http-nio-8080-exec-3] o.s.web.servlet.view.JstlView            : Forwarding to [/WEB-INF/jsp/owners.jsp]
+2019-05-22 15:31:59.481 DEBUG 16424 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-05-22 15:41:22.723  INFO 12560 --- [restartedMain] c.j.petclinic.PetClinicApplication       : Starting PetClinicApplication on TCRDCCONS0019 with PID 12560 (D:\Dev\IdeaProjects\petclinic\target\classes started by EXT02D8158 in D:\Dev\IdeaProjects\petclinic)
+2019-05-22 15:41:22.727  INFO 12560 --- [restartedMain] c.j.petclinic.PetClinicApplication       : The following profiles are active: dev
+2019-05-22 15:41:22.897  INFO 12560 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-22 15:41:22.897  INFO 12560 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-22 15:41:26.993  INFO 12560 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-22 15:41:27.120  INFO 12560 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-22 15:41:27.121  INFO 12560 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-22 15:41:28.450  INFO 12560 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-05-22 15:41:28.501  INFO 12560 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-22 15:41:28.502 DEBUG 12560 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-05-22 15:41:28.503  INFO 12560 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5605 ms
+2019-05-22 15:41:29.662 DEBUG 12560 --- [restartedMain] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2019-05-22 15:41:29.823 DEBUG 12560 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-05-22 15:41:30.009  INFO 12560 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-22 15:41:30.021 DEBUG 12560 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-05-22 15:41:30.119 DEBUG 12560 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2019-05-22 15:41:30.157 DEBUG 12560 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-05-22 15:41:30.179 DEBUG 12560 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-05-22 15:41:30.245  WARN 12560 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'viewResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafWebMvcConfiguration$ThymeleafViewResolverConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafDefaultConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultTemplateResolver' defined in class path resource [org/springframework/boot/autoconfigure/thymeleaf/ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver]: Factory method 'defaultTemplateResolver' threw exception; nested exception is java.lang.NoSuchMethodError: org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver.setCheckExistence(Z)V
+2019-05-22 15:41:30.246  INFO 12560 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-22 15:41:30.258  INFO 12560 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-05-22 15:41:30.284  INFO 12560 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-05-22 15:41:30.287 ERROR 12560 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.defaultTemplateResolver(ThymeleafAutoConfiguration.java:130)
+
+The following method did not exist:
+
+    org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver.setCheckExistence(Z)V
+
+The method's class, org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver, is available from the following locations:
+
+    jar:file:/D:/Dev/repository/org/thymeleaf/thymeleaf-spring5/3.0.11.RELEASE/thymeleaf-spring5-3.0.11.RELEASE.jar!/org/thymeleaf/spring5/templateresolver/SpringResourceTemplateResolver.class
+
+It was loaded from the following location:
+
+    file:/D:/Dev/repository/org/thymeleaf/thymeleaf-spring5/3.0.11.RELEASE/thymeleaf-spring5-3.0.11.RELEASE.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver
+
+2019-05-22 15:43:24.264  INFO 12036 --- [restartedMain] c.j.petclinic.PetClinicApplication       : Starting PetClinicApplication on TCRDCCONS0019 with PID 12036 (D:\Dev\IdeaProjects\petclinic\target\classes started by EXT02D8158 in D:\Dev\IdeaProjects\petclinic)
+2019-05-22 15:43:24.267  INFO 12036 --- [restartedMain] c.j.petclinic.PetClinicApplication       : The following profiles are active: dev
+2019-05-22 15:43:24.379  INFO 12036 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-22 15:43:24.380  INFO 12036 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-22 15:43:29.054  INFO 12036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-22 15:43:29.116  INFO 12036 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-22 15:43:29.116  INFO 12036 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-22 15:43:30.032  INFO 12036 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-05-22 15:43:30.049  INFO 12036 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-22 15:43:30.050 DEBUG 12036 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-05-22 15:43:30.050  INFO 12036 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5670 ms
+2019-05-22 15:43:30.901 DEBUG 12036 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-05-22 15:43:31.035  INFO 12036 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-22 15:43:31.048 DEBUG 12036 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-05-22 15:43:31.154 DEBUG 12036 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2019-05-22 15:43:31.184 DEBUG 12036 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-05-22 15:43:31.202 DEBUG 12036 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-05-22 15:43:31.242  INFO 12036 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2019-05-22 15:43:31.678  INFO 12036 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-05-22 15:43:31.688  INFO 12036 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2019-05-22 15:43:31.903  INFO 12036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-22 15:43:31.928  INFO 12036 --- [restartedMain] c.j.petclinic.PetClinicApplication       : Started PetClinicApplication in 9.88 seconds (JVM running for 11.198)
+2019-05-22 15:43:40.948  INFO 12036 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-22 15:43:40.949  INFO 12036 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-05-22 15:43:40.949 DEBUG 12036 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2019-05-22 15:43:40.963 DEBUG 12036 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-05-22 15:43:40.963  INFO 12036 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2019-05-22 15:43:40.996 DEBUG 12036 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/owners", parameters={}
+2019-05-22 15:43:41.025 DEBUG 12036 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView com.junique.petclinic.web.PetClinicController.getOwners()
+2019-05-22 15:43:41.049 DEBUG 12036 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+2019-05-22 15:43:41.050 DEBUG 12036 --- [http-nio-8080-exec-1] o.s.web.servlet.view.JstlView            : View name 'owners', model {owners=[Owner(id=1, firstName=Kenan, lastName=Sevindik, pets=[]), Owner(id=2, firstName=Muammer, lastName=Yücel, pets=[]), Owner(id=3, firstName=Hümeyra, lastName=Sevindik, pets=[]), Owner(id=4, firstName=Salim, lastName=Sevindik, pets=[])]}
+2019-05-22 15:43:41.056 DEBUG 12036 --- [http-nio-8080-exec-1] o.s.web.servlet.view.JstlView            : Forwarding to [/WEB-INF/jsp/owners.jsp]
+2019-05-22 15:43:42.199 DEBUG 12036 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
